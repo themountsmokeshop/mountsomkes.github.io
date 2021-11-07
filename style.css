@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "signika";
+    src: url(Signika-VariableFont_wght.ttf) format("truetype");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'signika', sans-serif;
+}
+
+@media screen and (max-width: 360px) {
+    .titleorg{
+        display:none;
+    }
+    .titlename{
+        display:none !important;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .titleorg{
+        left: -128px;
+        top:33%;
+    }
+    .opening{
+        padding-left: 4%;
+        padding-top: 119%;
+    }
+    .mainLogo{
+        left:18px;
+    }
+    .titlename{
+        left: -11%;
+        top: 159%;
+    }
+    .offerings{
+        margin-top: 5%;
+    }
+    .locate{
+        margin-top: 5%;
+    }
+    .buttons{
+    margin-left: 14%;
+    margin-top: 6%;
+    }
+}
+
+.container{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow: hidden;
+}
+
+.titlename{
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 185px;
+    margin-left: 37%;
+}
+
+.titleorg{
+    width: 100%;
+    max-width: 323px;
+    padding-top: 4%;
+    margin-left: 43%;
+    position: absolute;
+}
+
+.mainLogo{
+    width: 100%;
+    max-width: 209px;
+    padding-top: 1%;
+    margin-left: 18%;
+    position: absolute;
+}
+.opening{
+    color: #fc6404;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 23%;
+}
+
+.offerings{
+    color:  #fc6404;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.locate{
+    color:  #fc6404;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color:  #fc6404;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color:#fc6404;
+    color:  #fc6404;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #fc6404;
+    color:  #fc6404;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #fc6404;
+    color: #fff;
+}
+
+.buttons{
+    padding-top: 2%;
+}
+
+.locationpng{
+    width: 3%;
+    margin-right: 10px;
+}
+
+.social{
+    width: 3%;
+    display: inline;
+}
